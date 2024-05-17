@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "popins",sans-serif;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    padding-left: 10px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    
+}
+.logo{
+    color: orange;
+    right: 10px;
+    padding-top: 30px;
+
+
+}
+.logo:hover{
+    color: white;
+    transition: 0.4s;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 22px;
+    font-size: 14px;
+    }
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}    
+a:hover{
+    color: orange;
+    
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 250px;
+
+}
+.srch{
+    
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius:5px ;
+
+}
+.srch :focus{
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+}
+.content{
+    margin-top: 100px;
+    width: 1200px;
+    padding-left: 50px;
+    color: white;
+    
+}
+.para{
+    margin-top: 30px;
+    letter-spacing: 1px;
+    
+}
+.content span{
+    color: orange;
+}
+.content h1{
+    font-size: 50px;
+}
+
+
+.content h1:hover{
+    color: orange;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.cn{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius:5px ;
+    border-radius: 10px;
+}
+.cn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    top: 180px;
+    left: 870px;
+    position: absolute;
+    border-radius: 15px;
+    padding: 30px;
+   
+}
+.form h2{
+    text-align: center;
+    color: orange;
+    border-radius: 10px;
+    width: 200px;
+    background-color: white;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: solid 1px orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 25px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+}
+.form input{
+    color: white;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 15px;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius:5px ;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btnn:hover{
+    background-color:white;
+    color:orange;
+}
+.btnn {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.link{
+    margin-top: 20px;
+    text-align: center;
+}
+.form a{
+    text-align: center;
+    margin-top: 15px;
+    color: orange;
+
+}
+.liw{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.iconn{
+    padding-left: 14px;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
